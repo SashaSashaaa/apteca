@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+}
+.medication-list{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    width: 80%;
+}
+.medication-card{
+    width: 247px;
+    height: 390px;
+    border: solid rgb(223, 219, 219) 1px;
+    border-radius: 5px;
+
+}
+.medication-card-img{
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom: solid rgb(223, 219, 219) 1px;
+    text-align: center;
+}
+.yellow-star{
+    color: rgb(243, 228, 21);
+    font-size: 15px;
+    margin-right: 3px;
+}
+.stars{
+    margin-top: 20px;
+
+}
+.card-title{
+    color: rgb(197, 196, 196);
+    font-family:'Courier New', Courier, monospace;
+    font-weight: 100;   
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.prices, .card-title{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.discount{
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(131, 126, 126);
+    text-decoration: line-through;   
+
+}
+.card-content{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
